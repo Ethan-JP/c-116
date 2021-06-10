@@ -1,0 +1,22 @@
+body{
+    background-image:url("background.jpg");
+}
+
+.btn-primary{
+    font-size: 30px;
+}
+
+canvas{
+    margin-top: 50px;
+    animation-name: shadows;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadows{
+    from{box-shadow: 5px 5px 50px aqua;}
+    to{box-shadow: 5px 5px 50px magenta;}
+}
+
+.btn-warning:hover{
+    background-color: magenta;
+}
